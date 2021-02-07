@@ -7,6 +7,9 @@ target 'NY_Articles' do
 
   # Pods for NY_Articles
   pod 'Moya', '~> 13.0'
+  
+  #images
+  pod 'Kingfisher', '~> 5.13'
 
   target 'NY_ArticlesTests' do
     inherit! :search_paths

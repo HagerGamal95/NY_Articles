@@ -22,6 +22,8 @@ class ArticleDataService {
                                print(JSONString)
                            }
                     let decoder = JSONDecoder()
+                    decoder.dateDecodingStrategy = .iso8601
+
                     let base = try decoder.decode(BaseArticle.self, from: response.data)
                     completion(base.articles ?? [], nil)
                 } catch (let error) {
