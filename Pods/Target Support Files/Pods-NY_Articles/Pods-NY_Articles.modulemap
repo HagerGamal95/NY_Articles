@@ -1,6 +1,0 @@
-framework module Pods_NY_Articles {
-  umbrella header "Pods-NY_Articles-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module Pods_NY_Articles_NY_ArticlesUITests {
-  umbrella header "Pods-NY_Articles-NY_ArticlesUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
