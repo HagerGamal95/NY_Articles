@@ -30,10 +30,6 @@ class ArticleListViewController: UIViewController {
         super.viewDidLoad()
         setupTableView()
         setupNavBar()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
         attemptFetchUsers()
     }
     
