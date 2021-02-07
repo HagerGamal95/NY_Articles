@@ -106,7 +106,7 @@
         <!--Article Details View Controller-->
         <scene sceneID="kRu-KM-GiF">
             <objects>
-                <viewController storyboardIdentifier="ResultDetailsViewController" id="rFH-wI-Klj" customClass="ArticleDetailsViewController" customModule="NY_Articles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ArticleDetailsViewController" id="rFH-wI-Klj" customClass="ArticleDetailsViewController" customModule="NY_Articles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dgI-nL-Foe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

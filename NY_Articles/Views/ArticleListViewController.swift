@@ -123,15 +123,16 @@ extension ArticleListViewController: UITableViewDataSource {
 extension ArticleListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let article = articlesViewModel.articles[indexPath.row]
-        guard let id = article.id else { return }
-        showUser(with: id)
+        showUser(with: article)
     }
     
-    func showUser(with id: Int) {
+    func showUser(with article: Article) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let viewController = storyboard.instantiateViewController(withIdentifier: "UserViewController") as? UIViewController else {
+        guard let viewController = storyboard.instantiateViewController(withIdentifier: "ArticleDetailsViewController") as? ArticleDetailsViewController else {
             return
         }
+        let detailsViewModel = ArticleDetailsViewModel(article: article)
+        viewController.viewModel = detailsViewModel
         navigationController?.pushViewController(viewController, animated: true)
     }
     

@@ -15,7 +15,7 @@ class ArticlesViewModel {
     var message: String?
     
     func FetchArticles(with period: Int,completion: @escaping ((ViewModelState) -> Void)) {
-        service.requestFetchArticles(with: 7) { (articles, error) in
+        service.requestFetchArticles(with: period) { (articles, error) in
             if let error = error {
                 self.message = error.localizedDescription
                 completion(.failure)

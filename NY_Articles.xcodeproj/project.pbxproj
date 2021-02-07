@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01464E9625D087AF00095D0B /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01464E9525D087AF00095D0B /* ArticleDetailsViewController.swift */; };
+		01464E9B25D0897C00095D0B /* ArticleDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01464E9A25D0897C00095D0B /* ArticleDetailsViewModel.swift */; };
 		0168259825CF2EBF000DF39F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168259725CF2EBF000DF39F /* AppDelegate.swift */; };
 		0168259A25CF2EBF000DF39F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168259925CF2EBF000DF39F /* SceneDelegate.swift */; };
 		0168259F25CF2EBF000DF39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0168259D25CF2EBF000DF39F /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		01464E9525D087AF00095D0B /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		01464E9A25D0897C00095D0B /* ArticleDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewModel.swift; sourceTree = "<group>"; };
 		0168259425CF2EBF000DF39F /* NY_Articles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NY_Articles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0168259725CF2EBF000DF39F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0168259925CF2EBF000DF39F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		0168262E25CF5841000DF39F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				01464E9A25D0897C00095D0B /* ArticleDetailsViewModel.swift */,
 				0168262F25CF5868000DF39F /* ArticlesViewModel.swift */,
 				0168263725CF58EB000DF39F /* ViewModelState.swift */,
 			);
@@ -500,6 +503,7 @@
 				0168264B25CF6A1F000DF39F /* ArticleListViewController.swift in Sources */,
 				0168259A25CF2EBF000DF39F /* SceneDelegate.swift in Sources */,
 				0168263825CF58EB000DF39F /* ViewModelState.swift in Sources */,
+				01464E9B25D0897C00095D0B /* ArticleDetailsViewModel.swift in Sources */,
 				01464E9625D087AF00095D0B /* ArticleDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
